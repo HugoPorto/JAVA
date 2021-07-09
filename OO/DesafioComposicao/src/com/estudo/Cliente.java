@@ -1,5 +1,10 @@
 package com.estudo;
 
-public class Cliente {
+import java.util.ArrayList;
+import java.util.List;
 
+public class Cliente 
+{
+	String nomeCliente;
+	List<Compra> compras = new ArrayList<>();
 }
